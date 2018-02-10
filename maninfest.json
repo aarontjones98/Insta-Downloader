@@ -1,0 +1,16 @@
+{
+
+  "manifest_version": 2,
+  "name": "Insta-Downloader",
+  "version": "1.0",
+
+  "description": "Download pictures and videos from Instagram.",
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.instagram.com/*"],
+      "js": ["insta-downloader.js"]
+    }
+  ]
+
+}
